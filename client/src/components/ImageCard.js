@@ -9,7 +9,7 @@ const ImageCard = () => {
       <div className="relative">
         <img
           src={imageUrl}
-          alt="Rate this image"
+          alt=""
           className="w-full h-96 object-cover"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">

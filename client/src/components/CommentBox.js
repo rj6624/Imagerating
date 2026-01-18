@@ -9,7 +9,7 @@ const CommentBox = ({ onSubmitSuccess }) => {
   const [comment, setComment] = useState('');
   const [loading, setLoading] = useState(false);
   const [hasRated, setHasRated] = useState(false);
-  const { isAuthenticated, user } = useAuth();
+  const { isAuthenticated } = useAuth();
 
   useEffect(() => {
     if (isAuthenticated) {
